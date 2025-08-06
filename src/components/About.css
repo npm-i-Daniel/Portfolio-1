@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.about {
+    background-color: black;
+    color: white;
+    display: flex;
+    padding-bottom: 800px;
+}
+
+.a-img1 {
+    max-width: 286px;
+    max-height: 836px;
+    background-size: cover;
+    border-radius: 50%;
+    transition: 0.6;
+    animation: move 3000ms;
+}
+
+@keyframes move {
+    0% {
+        margin-left: -500px
+    }
+
+    50% {
+        margin-left: 0px;
+    }
+}
+
+.about__container1 {
+    position: absolute;
+    top: 200px;
+    left: 200px; 
+}
+
+.about__container2 {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: 300px;
+    right: 160px;
+    overflow: hidden;
+}
+
+.h11{
+    color: orangered;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    animation: fall 2000ms;
+}
+p {
+    animation: fall 2000ms;
+    line-height: 30px;
+}
+@keyframes fall {
+    0% {
+        margin-right: -500px
+    }
+
+    50% {
+        margin-right: 0px;
+    }
+}

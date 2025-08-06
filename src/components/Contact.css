@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.contact {
+    height: 700px;
+    font-family: 'Alata', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+h2{
+    text-align: center;
+}
+.contact__container{
+    position: relative;
+    top: 60px;
+    margin-left: 600px;
+}
+.contact__content1{
+    padding: 20px;
+}
+.contact__content2{
+    padding: 20px;
+}
+.contact__content3{
+    padding: 20px;
+}
+
+.animate-mail {
+    animation: mail 1s linear forwards; /* 'forwards' ensures it doesn't reset after animation */
+}
+
+.animate-link {
+    animation: link 1s linear forwards;
+}
+
+.animate-git {
+    animation: git 1s linear forwards;
+}
+
+@keyframes mail {
+    from{
+        margin-left: -800px;
+    }
+    to{
+        margin-left: 0px;
+    }
+}
+@keyframes link {
+    from{
+        margin-left: 1200px;
+    }
+    to{
+        margin-left: 0px;
+    }
+}
+@keyframes git {
+    from{
+        margin-left: -1600px;
+    }
+    to{
+        margin-left: 0px;
+    }
+}
+.c-svg {
+    width: 40px;
+    height: 40px;
+    fill: white;
+}
+.c-a{
+    color: white;
+    position: relative;
+    top: -16px;
+    padding: 25px;
+    transition: transform 0.2s ease;
+}
+.c-a:hover{
+    color: blueviolet;
+    transform: scale(1.05);
+}
+
