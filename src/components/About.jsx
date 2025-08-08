@@ -10,7 +10,7 @@ function About() {
                 </div>
                 <div className="about__container2">
                     <h1 className='h11'>Daniel</h1>
-                    <p>Frontend Developer | React JS Developer | Resonsive Designer |<br />
+                    <p>Frontend Developer | React JS Developer | Responsive Designer |<br />
                         Web Developer</p><br/>
                     <p>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I’m Daniel, a Frontend Developer specializing in React.js <br />
@@ -26,5 +26,6 @@ function About() {
         </>
     )
 }
+
 
 export default About
